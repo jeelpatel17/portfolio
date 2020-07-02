@@ -105,7 +105,7 @@ section h2{
 	letter-spacing: 0.3rem;
 }
 
-#landing figure{
+#About-JP figure{
 	margin: 2rem;
 }
 
@@ -119,13 +119,13 @@ figcaption{
 	color: #efefeb;
 }
 
-#work img{
+#Work-JP img{
 	width: 20rem;
 	border-radius: 10px;
 	height: 16rem;
 }
 
-#work div figure:hover{
+#Work-JP div figure:hover{
 	transform: scale(1.04);
 	transition: all 0.2s ease;
 }
