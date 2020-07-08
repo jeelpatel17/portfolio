@@ -1,126 +1,258 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Jeel Patel</title>
-		<!--ICON PACK-->
-		<script src="https://kit.fontawesome.com/e924019f26.js" crossorigin="anonymous"></script>
-		<!--FAVICON-->
-		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-		<link rel="manifest" href="src/favicon/site.webmanifest">
-		<!--BOOTSTRAP CSS-->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-		<!--IMAGE HOVER CSS-->
-		<link rel="stylesheet" type="text/css"
-			href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/2.0.0/css/imagehover.min.css" />
-		<!--CUSTOM CSS-->
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<meta name="viewport"
-			content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
-	</head>
+<html lang="en">
 
-	<body>
-		<main id="about">
-			<header class="masthead text-white text-center vh-100">
-				<div class="container d-flex align-items-center flex-column">
-					<img class="masthead-avatar mb-2 rounded-circle profile" src="img/profile-jeel-patel.jpg" alt="" />
-					<h1>Hi, I am Jeel.</h1>
-					<h2>and I am a Web Developer.</h2>
+<head>
+	<title>Jeel Patel</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
+	<!--ICON PACK-->
+	<script src="https://kit.fontawesome.com/e924019f26.js" crossorigin="anonymous"></script>
+	<!--FAVICON-->
+	<link rel="apple-touch-icon" sizes="180x180" href="src/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="src/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="src/favicon/favicon-16x16.png">
+	<link rel="manifest" href="src/favicon/site.webmanifest">
+	<!--BOOTSTRAP CSS-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+	<!--TAILWIND CSS-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/components.min.css">
+	<!--IMAGE HOVER CSS-->
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/2.0.0/css/imagehover.min.css" />
+	<!--CUSTOM CSS-->
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+</head>
+
+<body>
+	<main id="about">
+		<header class="masthead text-white text-center vh-100">
+			<div class="container d-flex align-items-center flex-column">
+				<img class="masthead-avatar mb-2 rounded-circle profile img-parent" src="src/img/profile-jeel-patel.jpg"
+					alt="" />
+				<h1>Hi, I am Jeel.</h1>
+				<h2>and I am a Web Developer.</h2>
+			</div>
+		</header>
+		<nav class="d-flex flex-row justify-content-around" id="navbar">
+			<a id="nabout" href="#skills">About</a>
+			<a id="nskills" href="#skills">Skills</a>
+			<a id="nwork" href="#work">Work</a>
+			<a id="neducation" href="#education">Education</a>
+			<a id="ncertifications" href="#certifications">Certifications</a>
+			<a id="ncontact" href="#contact">Contact</a>
+			<a id="nsocial" href="#social">Social</a>
+		</nav>
+		<section class="container-fluid" id="work">
+			<h2 class="display-4">WORK</h2>
+			<div class="row d-flex justify-content-around">
+				<div>
+					<figure class="imghvr-fade img-parent" style="background-color: #212221;">
+						<img src="src/img/fuel-station-website.png" alt="fuel-station-website" />
+						<figcaption style="background-color: #212221;">
+							<h3>Fuel Station Website</h3>
+						</figcaption>
+						<a href="https://jeelpatel.github.io/manbapetroleum"></a>
+					</figure>
 				</div>
-			</header>
-			<nav class="d-flex flex-row justify-content-around" id="navbar">
-				<a href="#about">ABOUT</a>
-				<a href="#work">WORK</a>
-				<a href="#social">SOCIAL</a>
-			</nav>
-			<section class="container-fluid" id="work">
-				<h2 class="display-4">WORK</h2>
-				<div class="row d-flex justify-content-around">
-					<div>
-						<figure class="imghvr-fade" style="background-color: #212221;">
-							<img src="img/fuel-station-website.png" alt="fuel-station-website" />
-							<figcaption style="background-color: #212221;">
-								<h3>Fuel Station Website</h3>
-							</figcaption>
-							<a href="https://jeelpatel.github.io/manbapetroleum"></a>
-						</figure>
-					</div>
 
-					<div>
-						<figure class="imghvr-fade" style="background-color: #212221;">
-							<img src="img/informational-website.png" alt="informational-website" />
-							<figcaption style="background-color: #212221;">
-								<h3>Informational Website</h3>
-							</figcaption>
-							<a href="https://jeelpatel17.github.io/covid19"></a>
-						</figure>
-					</div>
-
-					<div>
-						<figure class="imghvr-fade" style="background-color: #212221;">
-							<img src="img/business-website.png" alt="business-website" />
-							<figcaption style="background-color: #212221;">
-								<h3>Construction Business Website</h3>
-							</figcaption>
-							<a href="https://jeelpatel17.github.io/yagnainfrastructure"></a>
-						</figure>
-					</div>
-
-
-					<div>
-						<figure class="imghvr-fade" style="background-color: #212221;">
-							<img src="img/gymnasium-website.png" alt="gymnasium-website" />
-							<figcaption style="background-color: #212221;">
-								<h3>Gym Website</h3>
-							</figcaption>
-							<a href="https://jeelpatel17.github.io/fitnessfirst"></a>
-						</figure>
-					</div>
-
-					<div>
-						<figure class="imghvr-fade" style="background-color: #212221;">
-							<img src="img/tribute-page.png" alt="tribute-page" />
-							<figcaption style="background-color: #212221;">
-								<h3>Tribute Page</h3>
-							</figcaption>
-							<a href="https://codepen.io/jeelpatel/full/XWboYZP"></a>
-						</figure>
-					</div>
-
-					<div>
-						<figure class="imghvr-fade" style="background-color: #212221;">
-							<img src="img/product-landing-page.png" alt="product-landing-page" />
-							<figcaption style="background-color: #212221;">
-								<h3>Product Landing Page</h3>
-							</figcaption>
-							<a href="https://codepen.io/jeelpatel/full/abOrVjR"></a>
-						</figure>
-					</div>
+				<div>
+					<figure class="imghvr-fade img-parent" style="background-color: #212221;">
+						<img src="src/img/informational-website.png" alt="informational-website" />
+						<figcaption style="background-color: #212221;">
+							<h3>Informational Website</h3>
+						</figcaption>
+						<a href="https://jeelpatel17.github.io/covid19"></a>
+					</figure>
 				</div>
-			</section>
-			<section id="social" class="containment">
-				<h2 class="display-4">
-					LET'S CONNECT!
-				</h2>
-				<div class="d-flex row align-items-center justify-content-center social flex-sm-wrap">
-					<a href="https://twitter.com/70r65eL" class="fab fa-twitter _twitter" target="_blank"></a>
 
-					<a href="https://codepen.io/jeelpatel" class="fab fa-codepen _codepen" target="_blank"></a>
-
-					<a href="https://github.com/jeelpatel17" class="fab fa-github _github" target="_blank"></a>
-
-					<a href="https://instagram.com/spockbhai" class="fab fa-instagram _instagram" target="_blank"></a>
-
-					<a href="mailto:jeelsardar77@gmail.com" class="fa fa-envelope-o _email" target="_top"></a>
+				<div>
+					<figure class="imghvr-fade img-parent" style="background-color: #212221;">
+						<img src="src/img/business-website.png" alt="business-website" />
+						<figcaption style="background-color: #212221;">
+							<h3>Construction Business Website</h3>
+						</figcaption>
+						<a href="https://jeelpatel17.github.io/yagnainfrastructure"></a>
+					</figure>
 				</div>
-			</section>
-			<footer>
-				<span>&copy; 2020&nbsp;Jeel Patel</span>
-			</footer>
-		</main>
+
+
+				<div>
+					<figure class="imghvr-fade img-parent" style="background-color: #212221;">
+						<img src="src/img/gymnasium-website.png" alt="gymnasium-website" />
+						<figcaption style="background-color: #212221;">
+							<h3>Gym Website</h3>
+						</figcaption>
+						<a href="https://jeelpatel17.github.io/fitnessfirst"></a>
+					</figure>
+				</div>
+
+				<div>
+					<figure class="imghvr-fade img-parent" style="background-color: #212221;">
+						<img src="src/img/tribute-page.png" alt="tribute-page" />
+						<figcaption style="background-color: #212221;">
+							<h3>Tribute Page</h3>
+						</figcaption>
+						<a href="https://codepen.io/jeelpatel/full/XWboYZP"></a>
+					</figure>
+				</div>
+
+				<div>
+					<figure class="imghvr-fade img-parent" style="background-color: #212221;">
+						<img src="src/img/product-landing-page.png" alt="product-landing-page" />
+						<figcaption style="background-color: #212221;">
+							<h3>Product Landing Page</h3>
+						</figcaption>
+						<a href="https://codepen.io/jeelpatel/full/abOrVjR"></a>
+					</figure>
+				</div>
+			</div>
+		</section>
+
+		<div class="container _table" id="skills">
+			<table class="table table-responsive table-striped table-dark mx-auto">
+				<h1>Skills</h1>
+				<thead>
+					<tr>
+						<th scope="col">HTML</th>
+						<th scope="col">&#9733; &#9733; &#9733; &#9733; &#9733; </th>
+						<th scope="col">CSS</th>
+						<th scope="col">&#9733; &#9733; &#9733; &#9733; &#9733; </th>
+					</tr>
+				</thead>
+				<thead>
+					<tr>
+						<th scope="row">Bootstrap</th>
+						<th>&#9733; &#9733; &#9733; &#9733; &#9733; </td>
+						<th>Tailwind</td>
+						<th>&#9733; &#9733; &#9733; &#9733; &#9733; </td>
+					</tr>
+					<tr>
+						<th scope="row">Bulma.io</th>
+						<th>&#9733; &#9733; &#9733; &#9733; </td>
+						<th>Foundation</td>
+						<th>&#9733; &#9733; &#9733; </td>
+					</tr>
+					<tr>
+						<th scope="row">Github</th>
+						<th>&#9733; &#9733; &#9733; &#9733; </td>
+						<th>VS Code</td>
+						<th>&#9733; &#9733; &#9733; &#9733; &#9733; </td>
+					</tr>
+				</thead>
+			</table>
+		</div>
+		<!--------------------------------------------------->
+		<div id="education" class="flex flex-col justify-center mx-auto container _education">
+			<h1>Education</h1>
+			<div class="flex flex-row justify-center text-center _education1">
+				<div class="flex flex-row justify-center items-center px-5">
+					<i class="fa fa-graduation-cap fa-10x align-items-center justify-content-center p-4 w-56 h-56 rounded-full"
+						aria-hidden="true"></i>
+				</div>
+				<div class="flex flex-col justify-center rounded">
+					<div class="text-xs uppercase font-bold">2018-2021</div>
+					<div class="text-xl font-bold">High School Diploma - E.C. Engg.<br>|<br>B & B Institute of
+						Technology</div>
+				</div>
+			</div>
+
+			<div class="flex flex-row justify-center text-center _education1">
+				<div class="flex flex-row justify-center items-center px-5">
+					<img class="w-56 h-56 border-none float-right p-3" style="filter: invert(100%);opacity: 0.9;"
+						src="https://freepikpsd.com/wp-content/uploads/2019/10/leaderboards-wall-of-hands-college-png-black-and-white-600_600-Transparent-Images.png">
+				</div>
+				<div class="flex flex-col justify-center rounded pl-3">
+					<div class="text-xs uppercase font-bold">2008-2018</div>
+					<div class="text-xl font-bold">Elementary School<br>|<br>S.P.S English Medium School</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="certifications" class="flex flex-col justify-center m-auto _certifications">
+			<h1 class="text-center text-4xl">Certifications</h1>
+			<div class="flex flex-row justify-center mx-auto text-center _fcc _certifications1">
+				<div class="flex flex-row justify-center items-center _fccp px-5">
+					<i
+						class="fab fa-free-code-camp fa-10x _fcci align-items-center justify-content-center p-5 mr-5 xs:p-3 w-56 h-56 rounded-full"></i>
+				</div>
+				<div class="flex flex-col justify-center rounded ml-4">
+					<div class="text-xs uppercase font-bold _fccText"><a
+							href="https://freeCodeCamp.org">freeCodeCamp.org</a></div>
+					<div class="text-xl font-bold">Basic Web Development</div>
+				</div>
+			</div>
+
+			<div class="flex flex-row justify-center text-center _certifications1 _umich">
+				<div class="flex flex-row justify-center items-center lg:px-5">
+					<img class="w-57 h-56 p-5 xl:p-5 md:p-5 border-none"
+						src="https://upload.wikimedia.org/wikipedia/commons/3/36/Michigan_Wolverines_Block_M.png">
+				</div>
+				<div class="flex flex-col justify-center rounded _umichText">
+					<div class="text-xs uppercase font-bold">University of Michigan</div>
+					<div class="text-xl font-bold">Web Design For Everybody<br>Specialization</div>
+				</div>
+			</div>
+
+			<div class="flex flex-row justify-center text-center _uofl _certifications1">
+				<div class="flex flex-row justify-center items-center px-5">
+					<img class="w-56 h-60 p-5 xl:p-5 md:p-5 border-none _uofl_img"
+						src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/University_of_London_coat_of_arms.svg/1200px-University_of_London_coat_of_arms.svg.png">
+				</div>
+				<div class="flex flex-col justify-center rounded">
+					<div class="text-xs uppercase font-bold">University of London</div>
+					<div class="text-xl font-bold">Responsive Website Basics</div>
+				</div>
+			</div>
+		</div>
+
+		<!--------------------------------------------------->
+
+		<form id="contact" class="_form container" netlify>
+			<h1>Write to me!</h1>
+			<div class="form-group">
+				<label for="name">Name</label>
+				<input type="email" class="form-control" id="name" placeholder="Rajesh Koothrapalli">
+			</div>
+			<div class="form-group">
+				<label for="email">Email address</label>
+				<input type="email" class="form-control" id="email" placeholder="name@example.com">
+			</div>
+			<div class="form-group">
+				<label for="message">Message</label>
+				<textarea class="form-control" id="message" rows="3"
+					placeholder="Say anything you want . . ."></textarea>
+			</div>
+			<div class="form-group">
+				<button class="form-control submit" id="submit">Submit</button>
+			</div>
+		</form>
+		<section class="containment">
+			<h2 class="display-4">
+				LET'S CONNECT!
+			</h2>
+			<div class="d-flex row align-items-center justify-content-center social flex-sm-wrap">
+				<a href="https://twitter.com/70r65eL" class="fab fa-twitter _twitter" target="_blank"></a>
+
+				<a href="https://codepen.io/jeelpatel" class="fab fa-codepen _codepen" target="_blank"></a>
+
+				<a href="https://github.com/jeelpatel17" class="fab fa-github _github" target="_blank"></a>
+
+				<a href="https://instagram.com/spockbhai" class="fab fa-instagram _instagram" target="_blank"></a>
+
+				<a href="mailto:jeelsardar77@gmail.com" class="fa fa-envelope-o _email" target="_top"></a>
+			</div>
+		</section>
+		<footer id="social">
+			<span>&copy; 2020&nbsp;Jeel Patel</span>
+			<a href="#about">Jump to Top&nbsp;<i class="fa fa-chevron-circle-up"></i></a>
+		</footer>
+	</main>
 	<!--NECESSARY JS AND JQUERY-->
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 		</script>
