@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Sanchez&display=swap');
-
 ::selection{
 	background-color:#fff;
 	color: #000;
 }
 
 *-header{
-	box-sizing: border-box;
 	background-color: #212221;
 	font-family: Sanchez, serif;
 }
@@ -14,12 +11,10 @@
 *{
 	font-family: Sanchez, serif;
 	box-sizing: border-box;
-	outline: none;
 }
 
 a{
 	text-decoration: none!important;
-	cursor: pointer!important;
 }
 
 .img-parent{
@@ -28,13 +23,14 @@ a{
 
 /* Document level adjustments */
 html {
-  font-size: 20px;
+  font-size: 18px;
   scroll-behavior: smooth;
   overflow-x: hidden;
   background-color: #212221;
+  width: 100%;
 }
 @media (max-width: 900px) {
-  html { font-size: 18px; }
+  html { font-size: 17px; }
 }
 @media (max-width: 748px){
 	html{font-size: 16px;}
@@ -43,7 +39,7 @@ html {
   html { font-size: 14px; }
 }
 
-#about h1, #about h2{
+main h1, main h2{
 	font-size: 3rem;
 }
 
@@ -66,13 +62,11 @@ header{
 	text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
 }
 
-ul{
-	list-style-type: none;
-}
-
-#navbar {
+nav {
   overflow: hidden;
-  font-family: Sanchez, serif;
+  background-color: rgba(33, 34, 33, 0.7);
+	z-index: 100;
+	border:2px dashed #fff;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -87,12 +81,6 @@ ul{
   padding-top: 60px;
 }
 
-#navbar{
-	background-color: rgba(33, 34, 33, 0.7);
-	z-index: 100;
-	border:2px dashed #fff;
-}
-
 #navbar a{
 	color: #fff;
 	padding: 12px;
@@ -100,11 +88,7 @@ ul{
 
 #navbar a:hover{
     color: #fff;
-    text-decoration: underline rgb(255, 255, 255);
-}
-
-.profile{
-	border:2px dashed #fff;
+    text-decoration: underline #fff;
 }
 
 header img{
@@ -115,7 +99,7 @@ header{
 	padding: 4rem;
 }
 
-section h2{
+section h1{
 	text-align: center;
 	margin: 32px;
 	margin-top: 50px;
@@ -147,7 +131,7 @@ figcaption{
 	border:2px dashed #fff;
 }
 
-#work div figure:active{
+#work div figure:active,#work div figure:focus{
 	transform:translate(2px,2px);
 	transition: all 0.2s linear;
 }
@@ -213,7 +197,7 @@ form h1{
 
 input,textarea{
 	background: #212221!important;
-	outline: none!important;
+	color: #fff!important;
 }
 
 .submit{
@@ -272,11 +256,6 @@ footer a{
 	text-align: right;
 }
 
-/* Document level adjustments */
-html {
-  font-size: 17px;
-  scroll-behavior: smooth;
-}
 @media (max-width: 900px) {
   html {font-size: 15px;}
   header{padding-top:7rem;}
@@ -285,9 +264,14 @@ html {
   }
 }
 
-@media (min-width: 1200px){
-	._table{
-		width: 70%;
+@media (min-width: 900px){
+	#nabout{
+		display:none;
+	}
+}
+@media (min-width: 565px){
+	#nabout{
+		display:none;
 	}
 }
 
@@ -300,12 +284,18 @@ html {
 	}
 }
 
-@media (max-width: 400px) {
+@media (min-width: 1200px){
+	._table{
+		width: 70%;
+	}
+}
+
+@media (max-width: 400px) and (max-width: 605px) {
   html {font-size: 10px;}
-  #navbar{
+  nav{
   	font-size: 2rem;
   }
-  #navbar a{
+  nav a{
   	padding: 10px;
   	background-color: transparent;
   }
