@@ -28,7 +28,7 @@ a{
 
 /* Document level adjustments */
 html {
-  font-size: 17px;
+  font-size: 20px;
   scroll-behavior: smooth;
   overflow-x: hidden;
   background-color: #212221;
@@ -37,10 +37,10 @@ html {
   html { font-size: 18px; }
 }
 @media (max-width: 748px){
-	html{font-size: 15px;}
+	html{font-size: 16px;}
 }
 @media (max-width: 400px) {
-  html { font-size: 13px; }
+  html { font-size: 14px; }
 }
 
 #about h1, #about h2{
@@ -358,5 +358,8 @@ html {
   form{
 	  height: 55vh;
 	  padding-top: 3rem;
+  }
+  ._form div{
+	  width: 87%!important;
   }
 }
