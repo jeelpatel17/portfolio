@@ -214,21 +214,20 @@
 		</div>
 
 		<!---->
-
 		<form id="contact" name="contact" method="POST" class="_form container" data-netlify="true">
 			<h1>Write to me!</h1>
 			<div class="form-group">
 				<label for="name">Name</label>
-				<input type="text" class="form-control" id="name" placeholder="Rajesh Koothrapalli">
+				<input type="text" class="form-control" name="name" id="name" placeholder="Rajesh Koothrapalli" required>
 			</div>
 			<div class="form-group">
 				<label for="email">Email address</label>
-				<input type="email" class="form-control" id="email" placeholder="name@example.com">
+				<input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
 			</div>
 			<div class="form-group">
 				<label for="message">Message</label>
-				<textarea class="form-control" id="message" rows="3"
-					placeholder="Say anything you want . . ."></textarea>
+				<textarea class="form-control" name="message" id="message" rows="3"
+					placeholder="Say anything you want . . ." required></textarea>
 			</div>
 			<div class="form-group">
 				<button class="form-control submit" id="submit">Submit</button>
