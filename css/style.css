@@ -219,24 +219,27 @@ input,textarea{
 	color: #efefeb;
 }
 
+._email, ._instagram, ._github, ._codepen, ._twitter{
+	transition: all .3s ease;
+}
+
 ._twitter:hover{
 	color:#1DA1F2!important;
+	transition: all .3s ease;
 }
 
-._codepen:hover{
-	color:#AAB8C2!important;
-}
-
-._github:hover{
-	color:#AAB8C2!important;
+._codepen:hover, ._github:hover{
+	color:hsla(0,0%,100%,.7)!important;
 }
 
 ._instagram:hover{
 	color:#fc3838!important;
+	transition: all .3s ease;
 }
 
 ._email:hover{
 	color:#D44638!important;
+	transition: all .3s ease;
 }
 
 .newsletter button{
@@ -248,6 +251,8 @@ input,textarea{
 	margin: 2rem auto;
 	border-radius: 10px;
 	transition: all .3s ease;
+	font-weight: 700;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .newsletter button:hover{
@@ -258,7 +263,7 @@ input,textarea{
 	margin-bottom: 1rem;
 	padding: 10px 7rem;
 	transition: all .3s ease;
-	
+	font-family: Sanchez, sans-serif;
 }
 
 footer{
