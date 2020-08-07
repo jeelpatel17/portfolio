@@ -11,10 +11,11 @@
 *{
 	font-family: Sanchez, serif;
 	box-sizing: border-box;
+	cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur850.ani), url(http://cur.cursors-4u.net/cursors/cur-9/cur850.png), auto !important;
 }
 
 a{
-	text-decoration: none!important;
+	color: #fff!important;
 }
 
 .img-parent{
@@ -84,11 +85,6 @@ nav {
 #navbar a{
 	color: #fff;
 	padding: 12px;
-}
-
-#navbar a:hover{
-    color: #fff;
-    text-decoration: underline #fff;
 }
 
 header img{
@@ -204,11 +200,13 @@ input,textarea{
 	background: transparent;
 	color: #fff;
 	border: #fff dotted 3px;
+	transition: all .3s ease;
 }
 
 .submit:hover{
 	background: #fff;
 	color: #212221;
+	transition: all .3s ease;
 }
 
 .social a{
@@ -222,29 +220,52 @@ input,textarea{
 }
 
 ._twitter:hover{
-	color:#1DA1F2;
+	color:#1DA1F2!important;
 }
 
 ._codepen:hover{
-	color:#AAB8C2;
+	color:#AAB8C2!important;
 }
 
 ._github:hover{
-	color:#AAB8C2;
+	color:#AAB8C2!important;
 }
 
 ._instagram:hover{
-	color:#FD1D1D;
+	color:#fc3838!important;
 }
 
 ._email:hover{
-	color:#D44638;
+	color:#D44638!important;
+}
+
+.newsletter button{
+	display:block;
+	color: #000;
+	margin: 1rem auto 4rem;
+	background-color: #efefeb;
+	padding: 13px;	
+	margin: 2rem auto;
+	border-radius: 10px;
+	transition: all .3s ease;
+}
+
+.newsletter button:hover{
+	background-color:#212221;
+	border: #fff 2px dashed;
+	color: #fff;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	padding: 10px 7rem;
+	transition: all .3s ease;
+	
 }
 
 footer{
 	text-align:center;
-	padding-bottom: 25px;
+	padding-bottom: 5rem;
 	margin: 0 auto;
+	height: 15px;
 }
 
 footer span{
