@@ -5,14 +5,21 @@
 
 *-header{
 	background-color: #212221;
-	font-family: Sanchez, serif;
 }
 
 *{
-	font-family: Sanchez, serif;
+	font-family: Inter, sans-serif;
+	outline: none;
+	padding: 0;
+	margin: 0;
+	transition: all .25s ease;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 	cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur850.ani), url(http://cur.cursors-4u.net/cursors/cur-9/cur850.png), auto !important;
+}
+
+*, .display-4, button{
+	font-weight: 600;
 }
 
 a{
@@ -40,6 +47,7 @@ html {
 }
 
 main h1, main h2{
+	font-weight: 700;
 	font-size: 3rem;
 }
 
@@ -49,7 +57,7 @@ main h1, main h2{
 
 main{
 	background-color: #212221;
-	color: #efefeb;
+	color: #f2fade;
 }
 
 header{
@@ -98,7 +106,6 @@ section h1{
 	text-align: center;
 	margin: 32px;
 	margin-top: 50px;
-	letter-spacing: 0.3rem;
 }
 
 #landing figure{
@@ -111,7 +118,10 @@ section h1{
 
 figcaption{
 	text-align:center;
-	color: #efefeb;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #f2fade;
 }
 
 #work img{
@@ -122,13 +132,11 @@ figcaption{
 #work div figure:hover{
 	transform: scale(1.04);
 	border-radius: 10px;
-	transition: all 0.2s ease;
 	border:2px dashed #fff;
 }
 
 #work div figure:active,#work div figure:focus{
 	transform:translate(2px,2px);
-	transition: all 0.2s linear;
 }
 
 .containment{
@@ -148,11 +156,7 @@ figcaption{
 	padding-top: 15rem;
 }
 
-._education h1{
-	padding-bottom: 2rem;
-}
-
-._education1{
+._education h1,._education1{
 	padding-bottom: 2rem;
 }
 
@@ -160,11 +164,7 @@ figcaption{
 	padding-top: 7rem;
 }
 
-._certifications1{
-	padding-bottom: 2rem;
-}
-
-._certifications h1{
+._certifications h1, ._certifications1{
 	padding-bottom: 2rem;
 }
 
@@ -196,16 +196,17 @@ input,textarea{
 }
 
 .submit{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background: transparent;
 	color: #fff;
 	border: #fff dotted 3px;
-	transition: all .3s ease;
 }
 
 .submit:hover{
 	background: #fff;
 	color: #212221;
-	transition: all .3s ease;
 }
 
 .social a{
@@ -214,11 +215,7 @@ input,textarea{
 	text-decoration: none;
 	border:2px dashed #fff;
 	border-radius: 100rem;
-	color: #efefeb;
-}
-
-._email, ._instagram, ._github, ._codepen, ._twitter{
-	transition: all .3s ease;
+	color: #f2fade;
 }
 
 .fa-twitter{
@@ -228,7 +225,6 @@ input,textarea{
 ._twitter:hover{
 	color:#1DA1F2!important;
 	border-color: #1DA1F2;
-	transition: all .3s ease;
 	animation: spin 0.5s linear;
 }
 
@@ -246,39 +242,31 @@ input,textarea{
 ._instagram:hover{
 	color:#fc3838!important;
 	border-color: #fc3838;
-	transition: all .3s ease;
 	animation: spin 0.5s linear;
 }
 
 ._email:hover{
 	color:#D44638!important;
 	border-color: #D44638;
-	transition: all .3s ease;
 	animation: spin 0.5s linear;
 }
 
 .newsletter button{
 	display:block;
-	color: #000;
+	color: white;
+	
 	margin: 1rem auto 4rem;
-	background-color: #efefeb;
 	padding: 13px;	
 	margin: 2rem auto;
 	border-radius: 10px;
-	transition: all .3s ease;
-	font-weight: 700;
-	font-family: Arial, Helvetica, sans-serif;
+	background: transparent;
+	border: 2px dashed #f2fade;
 }
 
 .newsletter button:hover{
-	background-color:#212221;
-	border: #fff 2px dashed;
-	color: #fff;
-	margin-top: 2rem;
-	margin-bottom: 1rem;
-	padding: 10px 7rem;
-	transition: all .3s ease;
-	font-family: Sanchez, sans-serif;
+	background-color: #f2fade;
+	color: #000;
+	border: 2px dashed transparent;
 }
 
 footer{
@@ -346,9 +334,6 @@ footer a{
   }
   footer{
 	font-size: 1.5rem;
-  }
-  .containment h2{
-  	font-size: 4rem;
   }
   .containment{
 	  height:auto;
