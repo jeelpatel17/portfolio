@@ -1,4 +1,7 @@
-# Hi there 👋 This is Jeel Patel!
+# Hi there 👋 This is Jeel Patel's Portfolio!
+[![Visits Badge](https://badges.pufler.dev/visits/jeelpatel17/portfolio)](https://github.com/jeelpatel17/portfolio)
+[![Updated Badge](https://badges.pufler.dev/updated/jeelpatel17/portfolio)](https://github.com/jeelpatel17/portfolio)
+[![Created Badge](https://badges.pufler.dev/created/jeelpatel17/portfolio)](https://github.com/jeelpatel17/portfolio)
  > *Choose a Job you love and you'll never have to work a single day in your life!*
 #### - 🔭 I’m currently working on a website having Covid-19 Information like, it's History, Precautions and a simple-minimal counter showing total days since it spreaded.
 #### - 🤓 I'm currently learning Javascript.
