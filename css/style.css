@@ -232,13 +232,15 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.submit button {
   background: transparent;
   color: #fff;
   border: #fff solid 3px;
   transition: background 0.5s ease-in-out;
 }
 
-.submit:hover {
+.submit button:hover {
   background: linear-gradient(45deg, #fe8978, #f205cb, #05aff2);
   transition: background 0.5s ease-in-out;
 }
