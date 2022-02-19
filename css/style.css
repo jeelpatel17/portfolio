@@ -8,7 +8,7 @@
 }
 
 * {
-  font-family: Inter, sans-serif;
+  font-family: Outfit, Helvetica, sans-serif;
   outline: none;
   padding: 0;
   margin: 0;
@@ -53,10 +53,13 @@ html {
   }
 }
 
-main h1,
-main h2 {
+main h1 {
   font-weight: 700;
   font-size: 3rem;
+}
+
+main h2 {
+  font-size: 2rem;
 }
 
 #work div {
