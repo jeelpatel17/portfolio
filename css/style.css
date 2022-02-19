@@ -53,6 +53,16 @@ html {
   }
 }
 
+main h1 span,
+main h2 span,
+.display-4,
+figcaption h4,
+.grad {
+  background: -webkit-linear-gradient(45deg, #fe8978, #f205cb, #05aff2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 main h1 {
   font-weight: 700;
   font-size: 3rem;
@@ -78,12 +88,11 @@ header {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(https://source.unsplash.com/collection/11373758/);
+    url(/img/bg.jfif);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
 }
 
 nav {
@@ -135,9 +144,13 @@ section h1 {
 figcaption {
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #f2fade;
+}
+figcaption p {
+  font-size: 1.2rem;
 }
 
 #work img {
@@ -221,12 +234,13 @@ textarea {
   align-items: center;
   background: transparent;
   color: #fff;
-  border: #fff dotted 3px;
+  border: #fff solid 3px;
+  transition: background 0.5s ease-in-out;
 }
 
 .submit:hover {
-  background: #fff;
-  color: #212221;
+  background: linear-gradient(45deg, #fe8978, #f205cb, #05aff2);
+  transition: background 0.5s ease-in-out;
 }
 
 .social a {
@@ -236,58 +250,14 @@ textarea {
   border: 2px dashed #fff;
   border-radius: 100rem;
   color: #f2fade;
+  background: -webkit-linear-gradient(45deg, #fe8978, #f205cb, #05aff2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: transform 0.25s ease-in-out;
 }
-
-.fa-twitter {
-  padding: 15px;
-}
-
-._twitter:hover {
-  color: #1da1f2 !important;
-  border-color: #1da1f2;
-  animation: spin 0.5s linear;
-}
-
-@keyframes spin {
-  100% {
-    transform: rotateZ(360deg);
-  }
-}
-
-._codepen:hover,
-._github:hover {
-  border-color: hsla(0, 0%, 100%, 0.4);
-  animation: spin 0.5s linear;
-}
-
-._instagram:hover {
-  color: #fc3838 !important;
-  border-color: #fc3838;
-  animation: spin 0.5s linear;
-}
-
-._email:hover {
-  color: #d44638 !important;
-  border-color: #d44638;
-  animation: spin 0.5s linear;
-}
-
-.newsletter button {
-  display: block;
-  color: white;
-
-  margin: 1rem auto 4rem;
-  padding: 13px;
-  margin: 2rem auto;
-  border-radius: 10px;
-  background: transparent;
-  border: 2px dashed #f2fade;
-}
-
-.newsletter button:hover {
-  background-color: #f2fade;
-  color: #000;
-  border: 2px dashed transparent;
+.social a:hover {
+  transform: translateY(-10px);
+  transition: transform 0.25s ease-in-out;
 }
 
 footer {
